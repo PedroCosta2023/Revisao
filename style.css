@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+  height: 100vh;
+  background-image: url("img/9019805.jpg");
+}
+
+.titulo {
+  padding: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+.label {
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.result {
+  color: aliceblue;
+}
+
+.botao {
+  padding: 5px;
+}
+
+.nome {
+  margin-bottom: 15px;
+}
+
+.mail {
+  margin-bottom: 15px;
+}
+
+.tell{
+  margin-right: 5px;
+}

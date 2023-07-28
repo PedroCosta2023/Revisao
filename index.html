@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <title>Login</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1 class="titulo">Primeiro acesso</h1>
+
+    <div class="nome">
+
+      <label class="label" for="User">Nome:</label>
+      <input type="text" name="nome" id="nome">
+      <button class="botao" onclick="salvar()">Salvar</button>
+      <h6 class="result" id="resultName"></h6>
+
+    </div>
+
+    <div class="mail">
+
+      <label class="label" for="User">Email:</label>
+      <input type="email" name="name" id="mail">
+      <button class="botao" type="submit" onclick="salvar()">Salvar</button>
+      <h6 class="result" id="resultMail"></h6>
+
+    </div>
+
+    <div class="tell">
+
+      <label class="label" for="User">Telefone:</label>
+      <input type="tel" name="name" id="tell">
+      <button class="botao" type="submit" onclick="salvar()">Salvar</button>
+      <h6 class="result" id="resultTell"></h6>
+
+    </div>
+
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
